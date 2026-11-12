@@ -1,0 +1,6 @@
+[package]
+name = "research-slides"
+version = "0.1.0"
+entrypoint = "lib.typ"
+description = "Reusable Japanese research presentation theme and components for Typst"
+compiler = "0.15.1"
