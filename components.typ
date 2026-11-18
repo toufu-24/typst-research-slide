@@ -44,7 +44,7 @@
 // 情報のまとまり。背景色や角丸は使わず，見出しの上の罫線だけで区切る。
 // tone: "primary" | "accent" | "plain"（罫線と見出しの色）
 // rule: false で見出し上の罫線を消す
-#let card(title: none, tone: "plain", height: auto, rule: true, body) = {
+#let card(title: none, tone: "plain", height: auto, rule: false, body) = {
   let color = if tone == "primary" { colors.primary } else if tone == "accent" { colors.accent } else { colors.text }
   block(
     width: 100%,
